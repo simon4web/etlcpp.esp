@@ -27,8 +27,10 @@ extern "C" void app_main() {
 }
 ```
 
-## Output__
+## Output  
+
 I (742408341) port: Starting scheduler.
-``` sh
+
+```
 I (742408341) main: Hello World!!! (len: 14, capacity: 20)
 ```

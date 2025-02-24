@@ -1,5 +1,5 @@
 /*
- *  JerryScript Test
+ *  ETL HelloWorld
  *
  *  SPDX-FileCopyrightText: Copyright 2025 Clever Design (Switzerland) GmbH
  *  SPDX-License-Identifier: MIT
