@@ -3,7 +3,12 @@
 
 set(ETL_ROOT_DIR "${CMAKE_CURRENT_SOURCE_DIR}/etl")
 set(GIT_DIR_LOOKUP_POLICY ALLOW_LOOKING_ABOVE_CMAKE_SOURCE_DIR)
-register_component()
+
+idf_component_register(
+  SRCS
+    # No source files, ETL is a header-only library
+  INCLUDE_DIRS
+    ${ETL_ROOT_DIR}/include)
 
 # Xtensa processor architecture optimization
 set(EXTERNAL_COMPILE_FLAGS -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -mlongcalls -Wno-frame-address)
